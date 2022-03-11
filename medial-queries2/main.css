@@ -59,7 +59,6 @@ main {
   }
   .wrapper {
     justify-content: stretch;
-    flex-basis: 70%;
       min-height:  80vh;
   }
   footer {

@@ -7,7 +7,7 @@ body {
   box-sizing: border-box;
 }
 
-header {
+.a {
   width: 100%;
   height: 10em;
   margin-bottom: 1em;
@@ -20,43 +20,32 @@ header {
   flex-wrap: wrap;
 }
 
-.wrapper {
+.b, .c, .d, .e, .f, .g {
   width: 100%;
   min-height: 85vh;
   display: flex;
   flex-direction: column;
 }
 
-aside {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-grow: 1;
-}
 
-}
 
-main {
+.h {
   flex-grow: 4;
 }
 
 
 @media (min-width: 600px) {
-  .wrapper {
+  .b, .c, .d, .e, .f, .g {
     flex-direction: row;
   }
-  aside {
+  .b, .c, .d, .e, .f, .g {
     width: 80%;
     flex: 4;
     align-items: center;
     margin-right: 1em;
   }
-  aside > div {
-    height: 10em;
-  }
 
-  main {
+  .h {
     flex: 2;
   }
 }

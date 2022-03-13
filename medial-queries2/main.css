@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-aside  {
+.c, .d, .e {
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -20,7 +20,7 @@ aside  {
 
 }
 
-.wrapper {
+.b, .c, .d, .e {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -30,18 +30,18 @@ aside  {
   min-height: 70vh;
 }
 
-header, footer, aside, .wrapper  {
+.a, .f, .c, .d, .e .b  {
   flex-grow: 1;
   margin: .5em;
   max-height: 10vh;
 }
 
-aside > div {
+.c, .d, .e {
   flex-grow: 10;
   margin: .5em;
 }
 
-main {
+.b {
   width: 90%;
   flex-grow: 3;
   margin: .5em;
@@ -53,15 +53,15 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  header {
+  .a {
     width: 100%;
     max-height: 10vh;
   }
-  .wrapper {
+  .b, .c, .d, .e, {
     justify-content: stretch;
       min-height:  80vh;
   }
-  footer {
+  .f {
     margin: .5em;
     flex-grow: 3;
     min-height:  80vh;

@@ -13,11 +13,11 @@ body {
   justify-content: space-between;
 }
 
-header, footer  {
+.a, .c {
   flex-grow: 1;
 }
 
-main {
+.b {
   flex-grow:3;
 }
 
@@ -27,10 +27,10 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  header {
+  .a {
     width: 100%;
   }
-  main, footer, header {
+  .a, .b, .c {
     margin: 1em;
   }
 }
